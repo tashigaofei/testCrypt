@@ -21,6 +21,7 @@
 		81278CB6195C060900E30D54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81278C98195C060900E30D54 /* UIKit.framework */; };
 		81278CBE195C060900E30D54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81278CBC195C060900E30D54 /* InfoPlist.strings */; };
 		81278CC0195C060900E30D54 /* testCryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278CBF195C060900E30D54 /* testCryptTests.m */; };
+		81278CCB195C16CF00E30D54 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278CCA195C16CF00E30D54 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		81278CBB195C060900E30D54 /* testCryptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testCryptTests-Info.plist"; sourceTree = "<group>"; };
 		81278CBD195C060900E30D54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81278CBF195C060900E30D54 /* testCryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testCryptTests.m; sourceTree = "<group>"; };
+		81278CC9195C16CF00E30D54 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		81278CCA195C16CF00E30D54 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				81278CA3195C060900E30D54 /* CXAppDelegate.h */,
 				81278CA4195C060900E30D54 /* CXAppDelegate.m */,
+				81278CC9195C16CF00E30D54 /* Test.h */,
+				81278CCA195C16CF00E30D54 /* Test.m */,
 				81278CA6195C060900E30D54 /* Main.storyboard */,
 				81278CA9195C060900E30D54 /* CXViewController.h */,
 				81278CAA195C060900E30D54 /* CXViewController.m */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81278CA1195C060900E30D54 /* main.m in Sources */,
+				81278CCB195C16CF00E30D54 /* Test.m in Sources */,
 				81278CA5195C060900E30D54 /* CXAppDelegate.m in Sources */,
 				81278CAB195C060900E30D54 /* CXViewController.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				81278CC5195C060900E30D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81278CC6195C060900E30D54 /* Build configuration list for PBXNativeTarget "testCryptTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				81278CC8195C060900E30D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
