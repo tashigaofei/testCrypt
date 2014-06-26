@@ -24,6 +24,7 @@
 		81278CCB195C16CF00E30D54 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278CCA195C16CF00E30D54 /* Test.m */; };
 		81278CCE195C360700E30D54 /* base64Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278CCD195C360700E30D54 /* base64Test.m */; };
 		81278CD1195C36F300E30D54 /* Base64TestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278CD0195C36F300E30D54 /* Base64TestTest.m */; };
+		81278CD4195C376500E30D54 /* 4Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278CD3195C376500E30D54 /* 4Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		81278CCD195C360700E30D54 /* base64Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64Test.m; sourceTree = "<group>"; };
 		81278CCF195C36F300E30D54 /* Base64TestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64TestTest.h; sourceTree = "<group>"; };
 		81278CD0195C36F300E30D54 /* Base64TestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64TestTest.m; sourceTree = "<group>"; };
+		81278CD2195C376500E30D54 /* 4Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 4Test.h; sourceTree = "<group>"; };
+		81278CD3195C376500E30D54 /* 4Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 4Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				81278CCD195C360700E30D54 /* base64Test.m */,
 				81278CCF195C36F300E30D54 /* Base64TestTest.h */,
 				81278CD0195C36F300E30D54 /* Base64TestTest.m */,
+				81278CD2195C376500E30D54 /* 4Test.h */,
+				81278CD3195C376500E30D54 /* 4Test.m */,
 				81278CA6195C060900E30D54 /* Main.storyboard */,
 				81278CA9195C060900E30D54 /* CXViewController.h */,
 				81278CAA195C060900E30D54 /* CXViewController.m */,
@@ -270,6 +275,7 @@
 				81278CA5195C060900E30D54 /* CXAppDelegate.m in Sources */,
 				81278CAB195C060900E30D54 /* CXViewController.m in Sources */,
 				81278CD1195C36F300E30D54 /* Base64TestTest.m in Sources */,
+				81278CD4195C376500E30D54 /* 4Test.m in Sources */,
 				81278CCE195C360700E30D54 /* base64Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
